@@ -17,4 +17,4 @@ def pairings(names)
 	pairs
 end
 #names = ["1", "2", "3", "4", "5"]
-#p pairings(names)
+#puts name_arr(names)

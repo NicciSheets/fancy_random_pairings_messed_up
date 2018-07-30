@@ -17,9 +17,9 @@ end
 get '/pairs' do
 	p "pairs is #{params}"
 	result = params[:result]
+	p "result is #{result}"
   erb :grouped_pairs, locals:{result: result}
 end
-
 
 
 
